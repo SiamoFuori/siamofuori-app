@@ -1,0 +1,1 @@
+<h1>Crear Show</h1><form method='POST'><input name='name' placeholder='Nombre'><br>{% for song in songs %}<input type='checkbox' name='songs' value='{{ song.id }}'>{{ song.title }}<br>{% endfor %}<button type='submit'>Guardar</button></form>
